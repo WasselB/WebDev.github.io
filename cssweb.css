@@ -1,0 +1,110 @@
+h1 {
+    font-weight: 100;
+  }
+  
+  sub {
+    font-size: larger;
+    font-weight: bold;
+    color: #0a64bc;
+  }
+  
+  body {      
+    margin: 0px;
+    border: #0a64bc 10px outset;
+    margin: auto;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 1pt;
+    color: #ffffff;
+    background-color: #0a64bc;
+  }
+  
+  header.h1 {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  
+  div { 
+    padding-left: 10px;
+  }
+  
+  shelf {
+    background-color: #0a64bc;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    float:right;    
+    margin-right: 50px;
+    object-fit: cover;
+    object-position: 55%;
+  }
+
+
+  p {
+    margin-top: 3px;
+  }
+  
+  p.em {
+    margin-top: 3px;
+  }
+  
+  /* Style for the instruction text */
+  .notice {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-left: 5px solid #0a64bc;
+    margin: 10px;
+  }
+  
+  /* Responsive layout */
+  nav {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Media query for ≥ 576px */
+  @media (min-width: 576px) {
+    body {
+      max-width: 540px;
+    }
+  
+    nav {
+      max-width: 540px;
+    }
+  }
+  
+  /* Media query for ≥ 768px */
+  @media (min-width: 768px) {
+    body {
+      max-width: 720px;
+    }
+  
+    nav {
+      max-width: 720px;
+    }
+  }
+  
+  /* Media query for ≥ 992px */
+  @media (min-width: 992px) {
+    body {
+      max-width: 960px;
+    }
+  
+    nav {
+      max-width: 960px;
+    }
+  }
+  
